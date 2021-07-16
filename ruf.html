@@ -1,0 +1,418 @@
+    <div class="desktop">
+
+        <header id="navbar">
+            <div class="sidebyside">
+                <div> <img src="./assests/hspace logo.png" alt="" class="center">
+                </div>
+                <div class="navbar">
+                    <a href="#">About-us</a>
+                    <a href="#">Traning</a>
+                    <a href="#">Join-us</a>
+                    <a href="#">Reach-us</a>
+                </div>
+            </div>
+        </header>
+        <div class="deskever">
+
+
+            <div class="first">
+                <div class="quote">
+                    <h1>“Cybersecurity means protecting data, networks, programs and other
+                        information from unauthorized or unattended access, destruction or change.” </h1>
+                </div>
+                <div class="img">
+                    <img src="./assests/hspace-desktop.svg" alt="">
+                </div>
+                <div class="gone rellax">
+                    <ul>
+                        <li>
+                            <p>Gone are the days of simple firewalls and antivirus software being your sole
+                                security measures.</p>
+                        </li>
+                        <li>
+                            <p>We train and guide new minds to achive ther goal in the feild of Cybersecurity.</p>
+                        </li>
+                    </ul>
+                    <div>
+                        <p>Service we offer : </p>
+                        <ul>
+                            <li> Cyber security consultation</li>
+                            <li> Web design and development</li>
+                            <li> Mobile apps development</li>
+                            <li> Traning and delopment</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="rellax"> Know more</a>
+                </div>
+           
+
+            <div class="second">
+                <h2>Service offered :</h2>
+                <div class="parallax__group info-container">
+                    <img src="./img/concert.jpg" alt="Lively and colourful concert" />
+                    <div class="text-container">
+                        <h2>Cyber security consultation.</h2>
+                        <p>We take responsability for protecting sensitive data that come from these different aspects
+                            of the digital world.</p>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="second" style="height: 100vh;">
+        <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+  
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Services</h2>
+            <p>What we do offer</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="icon-box" data-aos="zoom-in-left">
+                <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+                <h4 class="title"><a href=""> Cyber security consultation</a></h4>
+                <p class="description">We take responsability for protecting sensitive data that come from these different
+                  aspects of the digital world.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+              <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+                <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
+                <h4 class="title"><a href="">Training & Development programm</a></h4>
+                <p class="description">With the rise of Cyber-Crimes,Our E.H & Information Security Training has become a
+                  powerful strategy in the fight against attacks.</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+              <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+                <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
+                <h4 class="title"><a href="">Cloud security</a></h4>
+                <p class="description"> By controlling the provisioning of physical resources through virtualization,
+                  providers ensure segmentation and isolation of CPU, GPU, storage and memory to protect your users,
+                  applications, and data</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+              <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+                <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
+                <h4 class="title"><a href="">Incident response</a></h4>
+                <p class="description">A well-developed and repeatable incident response plan is the best way to protect
+                  your company.</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mt-5">
+              <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+                <div class="icon"><i class="bi bi-globe" style="color: #d6ff22;"></i></div>
+                <h4 class="title"><a href="">Web & App devlopment</a></h4>
+                <p class="description">Empower your business with strategic web development servicesbthat will make your
+                  brand stand out from the rest.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-5">
+              <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+                <div class="icon"><i class="bi bi-clock" style="color: #4680ff;"></i></div>
+                <h4 class="title"><a href=""> Pentesting services</a></h4>
+                <p class="description">We help you to understand the level of security measures needed to secure the
+                  organization against cyber threats.</p>
+              </div>
+            </div>
+  
+          </div>
+          <a href="#" class="btn-learn-more">Learn More</a>
+  
+      </section><!-- End Services Section --></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./assests/rellax-master/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100%";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+<style>
+    * {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+body {
+    background-color: #2F2F2F;
+    color: white;
+    background-image: url("./assests/bg-3.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+    padding-bottom: 1rem;
+}
+
+.navbar {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.deskever {
+    margin: 100px;
+    margin-top: 190px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.541);
+    width: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+}
+
+.quote {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+}
+
+.quote h1 {
+    font-size: 26px;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+.img {
+    margin-top: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+p {
+    font-size: 22px;
+}
+
+.gone a {
+    background-color: #2F2F2F;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 10rem;
+    margin-left: 50px;
+
+}
+
+.gone a:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #2F2F2F;
+    cursor: pointer;
+    transition: 1000ms;
+
+
+}
+
+.first {
+    height: 100vh;
+}
+
+ul li {
+    line-height: 40px;
+}
+
+
+.second{
+    width: 100vw;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 90px;
+    background-color: black;
+    height: 100vh;
+}
+
+
+.text-container p:nth-of-type(1) {
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin: 1rem 2.5rem;
+  }
+  
+  .text-container p:nth-of-type(2) {
+    font-size: 0.6rem;
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 760px) {
+    .hero-text ul li {
+      visibility: visible;
+    }
+  
+    .info-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 3rem;
+      align-items: center;
+      text-align: left;
+    }
+  
+    .info-container img {
+      justify-self: end;
+      width: 75%;
+    }
+  
+    .text-container p:nth-of-type(1) {
+      font-size: 1rem;
+      width: 75%;
+      margin: 1rem 0;
+    }
+  
+    .text-container p:nth-of-type(1) {
+      font-size: 0.86rem;
+    }
+  }
+
+
+
+  .services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .services .icon-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+  }
+  
+  .services .icon {
+    position: absolute;
+    left: -20px;
+    top: calc(50% - 30px);
+  }
+  
+  .services .icon i {
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+  
+  .services .title {
+    margin-left: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: #2a2c39;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .title a:hover {
+    color: #0066b4;
+  }
+  
+  .services .description {
+    font-size: 14px;
+    margin-left: 40px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+
+  .services .btn-learn-more:hover {
+    background: #0066b4;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .services .btn-learn-more {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #0066b4;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #0066b4;
+    margin-top: 3%;
+    margin-left: 45%;
+  }
+
+
+
+
+
+
+
+
+</style>
