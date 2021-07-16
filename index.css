@@ -125,11 +125,6 @@ img.sticky {
     width: 90%;
 
 }
-.about {
-    margin-left: 55px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
 
 .text_1 {
     animation: text1;
@@ -205,8 +200,9 @@ img.sticky {
 .intro  {
     text-align: left;
     color: white;
-    margin: 40px;
-    margin-bottom: 10px;
+    margin: 10px;
+    margin-left: 4%;
+    margin-top: 10px;
 }
 
 .second {
