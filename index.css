@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -23,7 +24,7 @@ body background-img {
 a {
     text-decoration: none;
     color: white;
-}
+}   
 
 img.sticky {
     position: -webkit-sticky;
@@ -40,6 +41,7 @@ img.sticky {
     text-align: center;
     font-size: 24px;
     margin-top: 5%;
+    margin-left: -50px;
 }
 
 .typewriter h4 {
@@ -90,10 +92,14 @@ img.sticky {
     margin-left: 4.5%;
 
 }
+.minlineheight{
+    text-align: center;
+}
 
 .sometext p {
-    line-height: 60px;
-    font-size: 20px;
+    line-height: 40px;
+    font-size:18px;
+    width: 80%;
 }
 
 .sometext h3 {
@@ -116,15 +122,7 @@ img.sticky {
     transition: 1000ms;
 }
 
-.someothertext {
-    text-align: center;
-}
 
-.someothertext p {
-    font-size: 20px;
-    width: 90%;
-
-}
 
 .text_1 {
     animation: text1;
@@ -227,6 +225,7 @@ img.sticky {
 
 .hundred {
     height: 100vh;
+    margin-top: 10px;
 
 }
 
@@ -236,7 +235,6 @@ img.sticky {
     position: absolute;
     height: 300px;
     width: 80%;
-    top: 676px;
     left: calc(40% - 100px);
     display: flex;
 }
@@ -341,4 +339,22 @@ svg {
 .card:hover .stroke {
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
+}
+
+
+
+.about{
+    margin: 50px;
+    align-items: center;
+    line-height: 30px;
+}
+.about p{
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+.detail{
+    text-align: center;
+    padding: 20px;
 }
